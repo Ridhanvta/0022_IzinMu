@@ -1,3 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">IzinMu</string>
+    <string name="app_tagline">Kelola izin perkuliahan dengan cepat, jelas, dan terarsip.</string>
+    <string name="app_version">IzinMu • Tugas Akhir PAM 2026</string>
+
+    <string name="role_mahasiswa">Mahasiswa</string>
+    <string name="role_instruktur">Instruktur</string>
+    <string name="role_admin">Admin TU Prodi</string>
+
+    <string name="status_diajukan">Diajukan</string>
+    <string name="status_disetujui">Disetujui</string>
+    <string name="status_ditolak">Ditolak</string>
+
+    <string name="kategori_sakit">Sakit</string>
+    <string name="kategori_akademik">Akademik</string>
+    <string name="kategori_mendadak">Mendadak</string>
+    <string name="kategori_keluarga">Keperluan Keluarga</string>
+
+    <string name="common_back">Kembali</string>
+    <string name="common_cancel">Batal</string>
+    <string name="common_save">Simpan</string>
+    <string name="common_delete">Hapus</string>
+    <string name="common_edit">Ubah</string>
+    <string name="common_change">Ganti</string>
+    <string name="common_pick">Pilih</string>
+
+    <string name="login_welcome">Selamat datang\nkembali</string>
+    <string name="login_subtitle">Masuk dengan email kampus yang terdaftar.</string>
+    <string name="login_email_label">Email kampus</string>
+    <string name="login_email_placeholder">nama@student.umy.ac.id</string>
+    <string name="login_password_label">Password</string>
+    <string name="login_show_password">Tampilkan password</string>
+    <string name="login_hide_password">Sembunyikan password</string>
+    <string name="login_submit">Masuk ke akun</string>
+    <string name="login_email_empty">Email dan kata sandi wajib diisi.</string>
+
+    <string name="nav_home">Beranda</string>
+    <string name="nav_history">Riwayat</string>
+    <string name="nav_review">Review</string>
+    <string name="nav_users">Pengguna</string>
+    <string name="nav_courses">Mata kuliah</string>
+    <string name="nav_audit">Audit</string>
+    <string name="nav_profile">Profil</string>
+
+    <string name="home_greeting">%1$s,</string>
+    <string name="home_pending">Menunggu</string>
+    <string name="home_approved">Disetujui</string>
+    <string name="home_today_class">Kelas hari ini</string>
+    <string name="home_see_all">Lihat semua</string>
+    <string name="home_empty_courses">Belum ada mata kuliah yang dipetakan.</string>
+    <string name="home_apply">Ajukan izin baru</string>
+    <string name="home_apply_short">Ajukan izin</string>
+    <string name="home_rule">Pengajuan dibuka H-1 sampai hari kelas.</string>
+    <string name="home_greeting_morning">Selamat pagi</string>
+    <string name="home_greeting_noon">Selamat siang</string>
+    <string name="home_greeting_evening">Selamat sore</string>
+    <string name="home_greeting_night">Selamat malam</string>
+
+    <string name="history_title_student">Riwayat izin</string>
+    <string name="history_subtitle_student">Semua pengajuan izinmu</string>
+    <string name="history_subtitle_instructor">Pengajuan pada mata kuliahmu</string>
+    <string name="history_search_hint">Cari mata kuliah atau mahasiswa</string>
+    <string name="history_empty_title">Tidak ada pengajuan</string>
+    <string name="history_empty_message">Belum ada pengajuan izin.</string>
+    <string name="history_empty_filter">Coba ubah kata kunci atau filter status.</string>
+    <string name="history_all">Semua</string>
+
+    <string name="review_title">Review izin</string>
+    <string name="review_no_course">Belum ada mata kuliah yang diampu</string>
+    <string name="review_course_title">%1$s • %2$s</string>
+    <string name="review_course_count">%1$d mata kuliah diampu</string>
+    <string name="review_decided">Sudah diputuskan</string>
+    <string name="review_waiting_tab">Menunggu (%1$d)</string>
+    <string name="review_decided_tab">Diputuskan</string>
+    <string name="review_empty_pending">Tidak ada yang menunggu</string>
+    <string name="review_empty_decided">Belum ada keputusan</string>
+    <string name="review_empty_pending_msg">Semua pengajuan sudah kamu tinjau.</string>
+    <string name="review_empty_decided_msg">Keputusan yang kamu buat akan tampil di sini.</string>
+
+    <string name="detail_title">Detail pengajuan</string>
+    <string name="detail_subtitle">Pengajuan #%1$s</string>
+    <string name="detail_info">Informasi pengajuan</string>
+    <string name="detail_class">Kelas</string>
+    <string name="detail_category">Kategori</string>
+    <string name="detail_submitted">Diajukan</string>
+    <string name="detail_reason">Alasan</string>
+    <string name="detail_evidence">Bukti pengajuan</string>
+    <string name="detail_timeline">Riwayat status</string>
+    <string name="detail_note">Catatan instruktur</string>
+    <string name="detail_decision_note">Catatan keputusan (opsional)</string>
+    <string name="detail_decision_hint">Tambahkan catatan untuk mahasiswa</string>
+    <string name="detail_approve">Setujui</string>
+    <string name="detail_reject">Tolak</string>
+    <string name="detail_delete_title">Hapus pengajuan?</string>
+    <string name="detail_delete_message">Pengajuan yang dihapus tidak dapat dikembalikan.</string>
+    <string name="detail_timeline_submitted">Pengajuan dikirim</string>
+    <string name="detail_timeline_submitted_sub">Menunggu keputusan instruktur.</string>
+    <string name="detail_timeline_approved">Pengajuan disetujui</string>
+    <string name="detail_timeline_rejected">Pengajuan ditolak</string>
+    <string name="detail_timeline_pending">Menunggu review</string>
+    <string name="detail_evidence_permission">Hanya instruktur dan admin yang dapat mengakses bukti.</string>
+    <string name="detail_evidence_preview">Pratinjau bukti</string>
+    <string name="detail_evidence_name">Bukti foto</string>
+    <string name="form_title_edit">Ubah pengajuan</string>
+    <string name="form_subtitle">Lengkapi data di bawah ini</string>
+    <string name="form_pick_course">Pilih mata kuliah</string>
+    <string name="form_class_date">Tanggal kelas</string>
+    <string name="form_pick_date">Pilih tanggal kelas</string>
+    <string name="form_date_today">Hari ini</string>
+    <string name="form_date_tomorrow">Besok</string>
+    <string name="form_date_selected">Tanggal kelas</string>
+    <string name="form_date_pick">Pilih tanggal</string>
+    <string name="form_category">Kategori izin</string>
+    <string name="form_reason_hint">Jelaskan alasan izin secara singkat dan jelas</string>
+    <string name="form_reason_counter">%1$d/500 karakter</string>
+    <string name="form_evidence">Bukti pendukung</string>
+    <string name="form_upload">Unggah foto bukti</string>
+    <string name="form_evidence_rule">JPG, JPEG, atau PNG • maks. 5 MB</string>
+    <string name="form_evidence_short_rule">JPG / JPEG / PNG • maks. 5 MB</string>
+    <string name="form_submit">Kirim pengajuan</string>
+    <string name="form_update">Simpan perubahan</string>
+    <string name="form_help">Panduan pengajuan izin</string>
+    <string name="form_help_rule">Pengajuan hanya dibuka H-1 sampai hari kelas.</string>
+    <string name="form_sync_note">Data dikirim ke server dan hanya dapat diubah selama status masih Diajukan.</string>
+    <string name="form_error_course">Pilih mata kuliah terlebih dahulu.</string>
+    <string name="form_error_date">Tanggal kelas wajib diisi.</string>
+    <string name="form_error_evidence">Foto bukti wajib diunggah.</string>
+    <string name="form_error_size">Ukuran foto melebihi 5 MB.</string>
+    <string name="admin_quick_action">Aksi cepat</string>
+    <string name="admin_users_count">%1$d akun</string>
+    <string name="admin_course_count">%1$d MK</string>
+    <string name="admin_audit_count">%1$d log</string>
+    <string name="admin_latest_activity">Aktivitas terbaru</string>
+    <string name="admin_see_audit">Lihat audit</string>
+    <string name="admin_stat_lecturers">Dosen</string>
+
+    <string name="admin_users_title">Kelola pengguna</string>
+    <string name="admin_users_subtitle">%1$d akun terdaftar</string>
+    <string name="admin_users_search">Cari nama atau NIM/NIP</string>
+    <string name="admin_users_add">Tambah pengguna</string>
+    <string name="admin_users_name">Nama lengkap</string>
+    <string name="admin_users_identity">NIM / NIP / username</string>
+    <string name="admin_users_password">Kata sandi awal (min. 8 karakter)</string>
+    <string name="admin_users_courses">Mata kuliah yang diampu</string>
+    <string name="admin_users_pick_course">Pilih minimal satu mata kuliah.</string>
+    <string name="admin_users_course_note">Daftar mata kuliah dimuat dari server kampus.</string>
+    <string name="admin_users_account">%1$s • %2$s</string>
+    <string name="admin_users_course_sks">%1$s • %2$d SKS</string>
+    <string name="admin_users_created">Pengguna baru ditambahkan.</string>
+    <string name="admin_users_created_instructor">Instruktur ditambahkan dengan %1$d mata kuliah.</string>
+    <string name="admin_users_incomplete">Lengkapi nama, NIM/NIP, email, dan kata sandi.</string>
+    <string name="admin_users_role_student">Mahasiswa mendaftar sendiri melalui aplikasi.</string>
+    <string name="admin_courses_subtitle">%1$d mata kuliah dari server</string>
+    <string name="admin_courses_search">Cari kode atau nama mata kuliah</string>
+    <string name="admin_courses_note">Data ini dimuat dari REST API kampus.</string>
+    <string name="admin_courses_empty">Mata kuliah tidak ditemukan.</string>
+    <string name="admin_courses_sks">%1$d SKS</string>
+    <string name="admin_courses_group_default">Mata kuliah</string>
+
+    <string name="audit_title">Audit aktivitas</string>
+    <string name="audit_subtitle">%1$d catatan</string>
+    <string name="profile_account">Pengaturan akun</string>
+    <string name="profile_program">Program studi</string>
+    <string name="profile_security">Keamanan akun</string>
+    <string name="profile_session">Sesi aktif 7 hari setelah login</string>
+    <string name="profile_help">Bantuan</string>
+    <string name="profile_logout">Keluar dari akun</string>
+    <string name="error_network">Tidak dapat terhubung ke server IzinMu. Periksa koneksi dan alamat API.</string>
+    <string name="error_unauthorized">Email atau kata sandi salah.</string>
+    <string name="error_forbidden">Kamu tidak memiliki akses ke data ini.</string>
+    <string name="error_not_found">Data tidak ditemukan di server.</string>
+    <string name="error_conflict">Data sudah ada atau sedang diproses.</string>
+    <string name="error_generic">Server menolak permintaan (%1$d).</string>
+    <string name="error_course_required">Mata kuliah wajib dipilih.</string>
+    <string name="error_date_required">Tanggal kelas wajib diisi.</string>
+    <string name="error_reason_required">Alasan pengajuan wajib diisi.</string>
+    <string name="error_evidence_required">Foto bukti wajib dilampirkan.</string>
+    <string name="error_evidence_type">Bukti harus berupa JPG, JPEG, atau PNG.</string>
+    <string name="error_evidence_read">Foto bukti tidak dapat dibaca.</string>
+    <string name="error_evidence_size">Ukuran foto bukti maksimal 5 MB.</string>
+    <string name="error_login_data">Respons login tidak berisi data pengguna.</string>
+    <string name="error_request_missing">Pengajuan tidak ditemukan.</string>
+    <string name="error_save_request">Pengajuan tidak dapat disimpan.</string>
+    <string name="error_delete_request">Pengajuan tidak dapat dihapus (%1$d).</string>
+    <string name="error_decision">Keputusan tidak dapat disimpan.</string>
+    <string name="error_decision_status">Status keputusan tidak valid.</string>
+    <string name="error_email_required">Email wajib diisi.</string>
+    <string name="error_password_length">Kata sandi minimal 8 karakter.</string>
+    <string name="error_course_min_one">Pilih minimal satu mata kuliah.</string>
+    <string name="error_create_user">Pengguna tidak dapat dibuat.</string>
+    <string name="error_user_id">Server tidak mengembalikan ID pengguna.</string>
+    <string name="error_not_editable">Pengajuan ini tidak dapat diubah.</string>
+    <string name="error_already_decided">Pengajuan ini sudah diputuskan.</string>
+    <string name="audit_actor_time">%1$s • %2$s</string>
+    <string name="admin_users_identity_courses">%1$s • %2$d mata kuliah</string>
+    <string name="admin_courses_sks_suffix"> • %1$d SKS</string>
+    <string name="admin_courses_day_suffix"> • %1$s</string>
+    <string name="detail_course_schedule">%1$s • %2$s • %3$s–%4$s</string>
+    <string name="detail_decided_by">%1$s • %2$s</string>
+    <string name="detail_instructor_review">Instruktur akan meninjau pengajuan</string>
+    <string name="student_identity">%1$s • %2$s</string>
+    <string name="card_schedule">%1$s • %2$s–%3$s</string>
+    <string name="card_course_class">%1$s • %2$s</string>
+    <string name="card_student">%1$s • %2$s</string>
+    <string name="form_window">H-1 s.d. H</string>
+    <string name="admin_role_line">Admin TU Prodi • %1$s</string>
+    <string name="form_error_reason_min">Alasan minimal 10 karakter.</string>
+    <string name="fallback_course_missing">Mata kuliah tidak tersedia</string>
+    <string name="evidence_file_name">bukti-%1$d.jpg</string>
+    <string-array name="hari_indonesia">
+        <item>Senin</item>
+        <item>Selasa</item>
+        <item>Rabu</item>
+        <item>Kamis</item>
+        <item>Jumat</item>
+        <item>Sabtu</item>
+        <item>Minggu</item>
+    </string-array>
+    <string name="form_success_created">Pengajuan berhasil dikirim.</string>
+    <string name="form_success_updated">Pengajuan berhasil diperbarui.</string>
+    <string name="detail_deleted">Pengajuan dihapus.</string>
+    <string name="detail_decision_saved">Keputusan berhasil disimpan.</string>
+    <string name="evidence_fallback_name">bukti.jpg</string>
+    <string name="profile_program_empty">Program studi belum diisi</string>
 </resources>

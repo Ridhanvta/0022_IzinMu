@@ -1,10 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="purple_200">#FFBB86FC</color>
-    <color name="purple_500">#FF6200EE</color>
-    <color name="purple_700">#FF3700B3</color>
-    <color name="teal_200">#FF03DAC5</color>
-    <color name="teal_700">#FF018786</color>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <color name="izin_navy">#FF245B91</color>
+    <color name="izin_navy_dark">#FF173F66</color>
+    <color name="izin_navy_soft">#FF3B76AD</color>
+    <color name="izin_blue_container">#FFE8F1FA</color>
+    <color name="izin_blue_container_strong">#FFD6E6F5</color>
+    <color name="izin_background">#FFF5F7FB</color>
+    <color name="izin_surface">#FFFFFFFF</color>
+    <color name="izin_text">#FF1D2939</color>
+    <color name="izin_muted">#FF667085</color>
+    <color name="izin_outline">#FFE4E7EC</color>
+    <color name="izin_success">#FF067647</color>
+    <color name="izin_success_container">#FFECFDF3</color>
+    <color name="izin_warning">#FFB54708</color>
+    <color name="izin_warning_container">#FFFFFAEB</color>
+    <color name="izin_danger">#FFB42318</color>
+    <color name="izin_danger_container">#FFFEF3F2</color>
+    <color name="izin_instructor">#FF6941C6</color>
+    <color name="izin_instructor_container">#FFF4F0FF</color>
+    <color name="izin_on_dark">#FFFFFFFF</color>
+    <color name="izin_transparent">#00000000</color>
+    <color name="izin_launcher_mist">#FFD7E4F2</color>
+    <color name="izin_launcher_steel">#FF9DB8D4</color>
+    <color name="izin_launcher_blue">#FF2E6BA8</color>
 </resources>
